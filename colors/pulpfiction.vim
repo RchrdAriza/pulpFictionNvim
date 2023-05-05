@@ -82,6 +82,8 @@ hi TabLineSel guifg=#f9d500
 hi TabLineFill guifg=#f9d500
 hi TabLine guifg=#f9d500
 hi TabLineSel guifg=#f9d500
+hi Directory guifg=#a10f0f
+
 
 
 "Telescope
