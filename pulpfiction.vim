@@ -27,17 +27,27 @@ let s_pulp_purple = '#5e2d79'
 let s_pulp_brown = '#874d31'
 let s_pulp_white = '#ffffff'
 
+
+" indentblankline.
+hi IndentBlanklineChar gui=nocombine guifg=#444C55
+hi IndentBlanklineSpaceChar cterm=nocombine ctermfg=NONE gui=nocombine guifg=#4d5154
+hi IndentBlanklineContextChar gui=nocombine guifg=#FB5E2A
+hi IndentBlanklineContextStart gui=underline guisp=#FB5E2A
+
+
+
+
 hi Normal guifg=#FFFFFF guibg=#000000
 hi LineNr guifg=#5e2d79
-hi Normal guibg=#232F5A
+""hi Normal guibg=#232F5A
 hi StatusLine guifg=#31345a
 hi visual guifg=#f9d500 guibg=#a10f0f
-hi Comment guifg=#5861C4
-hi Constant guifg=#9ad13e
+hi Comment guifg=#874d31
+hi Constant guifg=#5861C4
 hi Identifier guifg=#db7d2f
 hi Statement guifg=#f9d500
 hi PreProc guifg=#f38fbe
-hi Type guifg=#9ad13e
+hi Type guifg=#FF6A44
 hi Special guifg=#db7d2f
 hi Underlined guifg=#f9d500
 hi operator guifg=#a10f0f
@@ -74,6 +84,22 @@ hi TabLine guifg=#f9d500
 hi TabLineSel guifg=#f9d500
 
 
+"Telescope
+hi TelescopePromptTitle guibg=#f9d500 guifg=#a10f0f
+hi TelescopeBorder guifg=#f9d500
+hi TelescopePromptBorder guifg=#f9d500
 
+
+" treesitter stuff.
+hi @tag.delimiter guifg=#75797a
+hi @text.literal guifg=#75797a
+hi @text.reference guifg=#fcc25d
+hi @text.uri cterm=underline gui=underline guifg=#b194fa
+hi @text.strong cterm=bold gui=bold
+hi @text.emphasis cterm=italic gui=italic
+hi @constructor.python guifg=#9ad13e
+hi @field.python guifg=#b8b8ff
+hi @variable.builtin.python guifg=#8bd450
+hi link @attribute.python Special
 
 
