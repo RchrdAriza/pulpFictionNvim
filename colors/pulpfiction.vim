@@ -28,6 +28,7 @@ let s_pulp_brown = '#874d31'
 let s_pulp_white = '#ffffff'
 
 
+
 " indentblankline.
 hi IndentBlanklineChar gui=nocombine guifg=#444C55
 hi IndentBlanklineSpaceChar cterm=nocombine ctermfg=NONE gui=nocombine guifg=#4d5154
@@ -51,7 +52,7 @@ hi Type guifg=#FF6A44
 hi Special guifg=#db7d2f
 hi Underlined guifg=#f9d500
 hi operator guifg=#a10f0f
-hi PmenuSel guibg=#db7d2f guifg=#FFFFFF
+hi PmenuSel guibg=#f9d500 guifg=#a10f0f
 hi Pmenu guibg=#a10f0f guifg=#FFFFFF
 hi PmenuSbar guibg=#f9d500
 hi CursorLine   guibg=#3c3836
@@ -82,7 +83,33 @@ hi TabLineSel guifg=#f9d500
 hi TabLineFill guifg=#f9d500
 hi TabLine guifg=#f9d500
 hi TabLineSel guifg=#f9d500
-hi Directory guifg=#a10f0f
+hi Directory guifg=#db7d2f
+hi Error guifg=#5e2d79
+hi Warning guifg=#f9d500
+hi MoreMsg guifg=#
+hi Question guifg=#5861c4
+hi ModeMsg guifg=#f9d500
+hi MsgArea guifg=#db7d2f
+hi MsgSeparator guifg=#f9d500
+hi MoreMsg guifg=#f9d500
+hi Folded guibg=#5861c4
+hi FoldColumn guibg=#5861c4
+hi DiffAdd guifg=#9ad13e
+hi DiffChange guifg=#f9d500
+hi DiffDelete guifg=#a10f0f
+hi DiffText guifg=#f9d500
+hi GitSignsChange guifg=#fc735d
+hi GitSignsDelete guifg=#fb3475
+hi GitSignsAdd guifg=#7cb375
+hi diffAdded guifg=#7cb375
+hi diffRemoved guifg=#fb3475
+hi GitSignsDeletePreview guifg=#eaf3f5 guibg=#321a26
+hi GitSignsAddInline guibg=#304936
+hi CmpItemAbbrDeprecated cterm=strikethrough gui=strikethrough guifg=#75797a
+""hi CmpItemAbbrMatch guifg=#fc735d
+""hi CmpItemAbbrMatchFuzzy guifg=#fc735d
+hi CmpItemKindVariable guifg=#db7d2f
+hi CmpItemKindInterface guifg=#7cb375
 
 
 
