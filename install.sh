@@ -1,3 +1,5 @@
+#!/bin/bash
+
 git clone https://github.com/RchrdAlv/pulpFictionNvim-Theme
 
 cd pulpFictionNvim-Theme
