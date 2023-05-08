@@ -51,7 +51,7 @@ hi PreProc guifg=#f38fbe
 hi Type guifg=#FF6A44
 hi Special guifg=#db7d2f
 hi Underlined guifg=#f9d500
-hi operator guifg=#a10f0f
+hi operator guifg=#F73B3B
 hi PmenuSel guibg=#f9d500 guifg=#a10f0f
 hi Pmenu guibg=#a10f0f guifg=#FFFFFF
 hi PmenuSbar guibg=#f9d500
