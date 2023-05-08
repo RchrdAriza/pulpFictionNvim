@@ -26,7 +26,7 @@ Copy this into your Neovim configuration file:
 ```vim
 "If you are using lua  this:
 
-vim.cmd ('colorscheme pulpfiction')
+vim.cmd('colorscheme pulpfiction')
 
 "If you are using VimScript use this:
 
@@ -57,7 +57,7 @@ Copy this into your Neovim configuration file:
 ```vim
 "If you are using lua  this:
 
-vim.cmd ('colorscheme pulpfiction')
+vim.cmd('colorscheme pulpfiction')
 
 "If you are using VimScript use this:
 
