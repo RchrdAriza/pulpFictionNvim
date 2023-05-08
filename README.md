@@ -6,8 +6,9 @@
 </p>
 <p align="Center">
   <img src="https://img.shields.io/badge/LICENSE-MIT-redstyle=plastic&logo">
-  <img src="https://img.shields.io/badge/N-Neovim-yellow" >
-  <img src="https://img.shields.io/badge/-VimScript-success" >
+  <img src="https://img.shields.io/badge/-Neovim-success?logo=neovim&logoColor=blue&labelColor=2eff04&color=00A5FF" >
+  <img src="https://img.shields.io/badge/-Vim-success?logo=vim&logoColor=013F00&labelColor=2eff04&color=D6FFD5" >
+  <img src="https://img.shields.io/badge/-Linux-success?logo=linux&logoColor=ffffff&labelColor=246FFF&color=7A7A7A" >
 </p>
 
 # Installation
