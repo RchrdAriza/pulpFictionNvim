@@ -24,12 +24,12 @@ Copy this into your Neovim configuration file:
 "If you are using lua  this:
 
 vim.cmd [[
-    colorscheme pulpFiction
+    colorscheme pulpfiction
 ]]
 
 "If you are using VimScript use this:
 
-colorscheme pulpFiction
+colorscheme pulpfiction
 ```
 
 
@@ -57,11 +57,11 @@ Copy this into your Neovim configuration file:
 "If you are using lua  this:
 
 vim.cmd [[
-    colorscheme pulpFiction
+    colorscheme pulpfiction
 ]]
 
 "If you are using VimScript use this:
 
-colorscheme pulpFiction
+colorscheme pulpfiction
 ```
 
