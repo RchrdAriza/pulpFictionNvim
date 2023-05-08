@@ -4,7 +4,7 @@ GREEN='\033[0;32m'
 YELLOW='\033[0;33m' 
 NC='\033[0m'
 
-echo -e "${AMARILLO}Cloning repository ${NC}"
+echo -e "${YELLOW}Cloning repository ${NC}"
 git clone https://github.com/RchrdAlv/pulpFictionNvim-Theme
 sleep 2
 clear

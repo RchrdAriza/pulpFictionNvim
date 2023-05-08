@@ -2,18 +2,52 @@
 
 <p align="center">
   <img src=".imgs/themepic.jpg" width="300" >
+
 </p>
 
 
 # Installation
+
+
+
 ## Quick installation
 Copy this to your terminal
+
+
 ```
 sh -c "wget https://raw.githubusercontent.com/RchrdAlv/pulpFictionNvim-Theme/main/install.sh ; bash install.sh"
+
 ```
+Copy this into your Neovim configuration file:
+
+
+```vim
+"If you are using lua  this:
+
+vim.cmd [[
+    colorscheme pulpFiction
+]]
+
+"If you are using VimScript use this:
+
+colorscheme pulpFiction
+
+
+```
+
+
+```output[1](05/08/23 13:14:43)
+[string ""If you are using lua copy this:..."]:1: unfinished string near '"If you are using lua copy this:'
+
+
+```
+
+
 
 ## Manual Installation
 Follow these steps
+
+
 ```
 #clone the repository
 git clone https://github.com/RchrdAlv/pulpFictionNvim-Theme
@@ -26,4 +60,21 @@ mkdir -p ~/.config/nvim/colors
 
 #Copy the theme to that folder
 cp colors/* ~/.config/nvim/colors
+
+
 ```
+Copy this into your Neovim configuration file:
+
+```vim
+"If you are using lua  this:
+
+vim.cmd [[
+    colorscheme pulpFiction
+]]
+
+"If you are using VimScript use this:
+
+colorscheme pulpFiction
+
+```
+
