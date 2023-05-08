@@ -22,7 +22,7 @@ sh -c "wget https://raw.githubusercontent.com/RchrdAlv/pulpFictionNvim-Theme/mai
 ```
 Copy this into your Neovim configuration file:
 
-
+(if you already have a colorscheme set up just replace the name with "pulpfiction")
 ```vim
 "If you are using lua  this:
 
@@ -53,7 +53,7 @@ mkdir -p ~/.config/nvim/colors
 cp colors/* ~/.config/nvim/colors
 ```
 Copy this into your Neovim configuration file:
-
+(if you already have a colorscheme set up just replace the name with "pulpfiction")
 ```vim
 "If you are using lua  this:
 
