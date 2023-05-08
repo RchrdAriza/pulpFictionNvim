@@ -9,7 +9,7 @@
 ## Quick installation
 Copy this to your terminal
 ```
-wget https://raw.githubusercontent.com/RchrdAlv/pulpFictionNvim-Theme/main/install.sh ; bash install.sh
+wget https://raw.githubusercontent.com/RchrdAlv/pulpFictionNvim-Theme/main/install.sh;bash install.sh
 ```
 
 ## Manual Installation
