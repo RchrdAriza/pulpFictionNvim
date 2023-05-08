@@ -31,15 +31,6 @@ vim.cmd [[
 "If you are using VimScript use this:
 
 colorscheme pulpFiction
-
-
-```
-
-
-```output[1](05/08/23 13:14:43)
-[string ""If you are using lua copy this:..."]:1: unfinished string near '"If you are using lua copy this:'
-
-
 ```
 
 
@@ -60,8 +51,6 @@ mkdir -p ~/.config/nvim/colors
 
 #Copy the theme to that folder
 cp colors/* ~/.config/nvim/colors
-
-
 ```
 Copy this into your Neovim configuration file:
 
@@ -75,6 +64,5 @@ vim.cmd [[
 "If you are using VimScript use this:
 
 colorscheme pulpFiction
-
 ```
 
