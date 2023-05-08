@@ -4,11 +4,11 @@
   <img src=".imgs/themepic.jpg" width="300" >
 
 </p>
-
+< align="Center">
+  <img src="https://img.shields.io/badge/LICENSE-MIT-redstyle=plastic&logo">
+</p>
 
 # Installation
-
-
 
 ## Quick installation
 Copy this to your terminal
