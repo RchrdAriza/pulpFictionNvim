@@ -7,6 +7,7 @@
 <p align="Center">
   <img src="https://img.shields.io/badge/LICENSE-MIT-redstyle=plastic&logo">
   <img src="https://img.shields.io/badge/N-Neovim-yellow" >
+  <img src="https://img.shields.io/badge/-VimScript-success" >
 </p>
 
 # Installation
