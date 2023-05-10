@@ -7,7 +7,6 @@ NC='\033[0m'
 echo -e "${YELLOW}Cloning repository ${NC}"
 git clone https://github.com/RchrdAlv/pulpFictionNvim-Theme
 sleep 2
-clear
 
 echo -e "${RED}Finishing some details.. ${NC}"
 cd pulpFictionNvim-Theme
@@ -16,6 +15,8 @@ mkdir -p ~/.config/nvim/colors
 
 cp colors/* ~/.config/nvim/colors
 sleep 4
+cd ..
+rm -rf pulpFictionNvim-Theme
 clear
 
 echo -e "${GREEN}Ready, you can now enjoy ${NC}"

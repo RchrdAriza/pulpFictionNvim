@@ -18,7 +18,7 @@ Copy this to your terminal
 
 
 ```
-sh -c "wget https://raw.githubusercontent.com/RchrdAlv/pulpFictionNvim-Theme/main/install.sh ; bash install.sh"
+bash <(curl -s  https://raw.githubusercontent.com/RchrdAlv/pulpFictionNvim-Theme/main/install.sh)
 ```
 Copy this into your Neovim configuration file:
 
