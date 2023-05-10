@@ -29,7 +29,6 @@ let s_pulp_white = '#ffffff'
 
 
 
-
 " indentblankline.
 hi IndentBlanklineChar gui=nocombine guifg=#444C55
 hi IndentBlanklineSpaceChar cterm=nocombine ctermfg=NONE gui=nocombine guifg=#4d5154
@@ -54,11 +53,12 @@ hi Identifier guifg=White
 hi Statement guifg=#f9d500
 hi PreProc guifg=#f38fbe
 hi Type guifg=#5861C4
+hi IncSearch guifg=#FB5E2A
 hi Special guifg=#db7d2f
 hi Underlined guifg=#f9d500
 hi operator guifg=#E33C3C
 hi PmenuSel guibg=#f9d500 guifg=#a10f0f
-hi Pmenu guibg=#a10f0f guifg=#FFFFFF
+hi Pmenu guibg=#a10f0f guifg=#ffffff
 hi PmenuSbar guibg=#f9d500
 hi CursorLine   guibg=#3c3836
 hi CursorColumn guibg=#3c3836
@@ -106,7 +106,7 @@ hi diffRemoved guifg=#fb3475
 hi GitSignsDeletePreview guifg=#eaf3f5 guibg=#321a26
 hi GitSignsAddInline guibg=#304936
 hi CmpItemAbbrDeprecated cterm=strikethrough gui=strikethrough guifg=#75797a
-hi CmpItemKindVariable guifg=#db7d2f
+
 hi CmpItemKindInterface guifg=#7cb375
 hi @bolean guifg=#fb3475
 
@@ -141,6 +141,32 @@ hi TelescopeBorder guifg=#f9d500
 hi TelescopePromptBorder guifg=#f9d500
 
 
+hi CmpItemAbbrMatch guifg=#fc735d
+hi CmpItemAbbrMatchFuzzy guifg=#fc735d
+hi CmpItemKindText guifg=#fcc25d
+hi CmpItemKindFunction guifg=#fc735d
+" hi CmpItemKindMethod guifg=
+" hi CmpItemKindKeyword guifg=
+" hi CmpItemKindProperty guifg=
+" hi CmpItemKindUnit guifg=
+" hi CmpItemAbbr guifg=
+" hi CmpItemAbbrDefault guifg=
+" hi CmpItemKindDefault guifg=
+" hi CmpItemKindFile guifg=
+" hi CmpItemKindOperator guifg=
+" hi CmpItemKindTypeParameter guifg=
+" hi CmpItemKindEnum guifg=
+" hi CmpItemKindModule guifg=
+" hi CmpItemKindClass guifg=
+" hi CmpItemKindConstant guifg=
+" hi CmpItemKindConstructor guifg=
+" hi CmpItemKindFolder guifg=
+" hi CmpItemKindReference guifg=
+" hi CmpItemKindField guifg=
+hi CmpItemKindSnippet guifg=White
+" hi CmpItemKindValue guifg=
+" hi CmpItemKindEvent guifg=
+" hi CmpItemKindStruct guifg=
 
 
 " treesitter stuff.
