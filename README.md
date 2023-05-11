@@ -13,54 +13,20 @@
 
 # Installation
 
-## Quick installation
-Copy this to your terminal
-
-
-```
-bash <(curl -s  https://raw.githubusercontent.com/RchrdAlv/pulpFictionNvim-Theme/main/install.sh)
-```
-Copy this into your Neovim configuration file:
-
-(if you already have a colorscheme set up just replace the name with "pulpfiction")
-```vim
-"If you are using lua  this:
-
-vim.cmd('colorscheme pulpfiction')
-
-"If you are using VimScript use this:
-
-colorscheme pulpfiction
+Using vim-plug:
+```lua
+     Plug 'RchrdAlv/pulpFictionNvim'
 ```
 
-
-
-## Manual Installation
-Follow these steps
-
-
+Using Packer:
+```lua
+    use 'RchrdAlv/pulpFictionNvim'
 ```
-#clone the repository
-git clone https://github.com/RchrdAlv/pulpFictionNvim-Theme
-
-#Go to the folder
-cd pulpFictionNvim-Theme
-
-#Create the necessary folders
-mkdir -p ~/.config/nvim/colors
-
-#Copy the theme to that folder
-cp colors/* ~/.config/nvim/colors
+To use you must modify your init.lua or init.vim file as follows:
+```lua
+    -- using lua:
+       vim.cmd('colorscheme pulpfiction')
+    
+    -- using VimL 
+       colorscheme pulpFictionNvim
 ```
-Copy this into your Neovim configuration file:
-(if you already have a colorscheme set up just replace the name with "pulpfiction")
-```vim
-"If you are using lua  this:
-
-vim.cmd('colorscheme pulpfiction')
-
-"If you are using VimScript use this:
-
-colorscheme pulpfiction
-```
-
