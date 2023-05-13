@@ -15,18 +15,18 @@
 
 Using vim-plug:
 ```lua
-     Plug 'RchrdAlv/pulpFictionNvim'
+Plug 'RchrdAlv/pulpFictionNvim'
 ```
 
 Using Packer:
 ```lua
-    use 'RchrdAlv/pulpFictionNvim'
+use 'RchrdAlv/pulpFictionNvim'
 ```
 To use you must modify your init.lua or init.vim file as follows:
 ```lua
-    -- using lua:
-       vim.cmd('colorscheme pulpfiction')
+-- using lua:
+vim.cmd('colorscheme pulpfiction')
     
-    -- using VimL 
-       colorscheme pulpFictionNvim
+-- using VimL 
+colorscheme pulpFictionNvim
 ```
