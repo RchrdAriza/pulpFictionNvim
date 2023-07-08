@@ -20,7 +20,7 @@ Plug 'RchrdAriza/pulpFictionNvim'
 
 Using Packer:
 ```lua
-use 'RchrdAlv/pulpFictionNvim'
+use 'RchrdAriza/pulpFictionNvim'
 ```
 To use you must modify your init.lua or init.vim file as follows:
 ```lua
