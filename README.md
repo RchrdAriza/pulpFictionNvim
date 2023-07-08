@@ -15,7 +15,7 @@
 
 Using vim-plug:
 ```lua
-Plug 'RchrdAlv/pulpFictionNvim'
+Plug 'RchrdAriza/pulpFictionNvim'
 ```
 
 Using Packer:
